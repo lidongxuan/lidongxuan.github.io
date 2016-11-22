@@ -1,30 +1,45 @@
+# Dependencies
+markdown: kramdown
+redcarpet:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+excerpt_separator: <!--more-->
 
+# Permalinks
+permalink: /blog/:title
+timezone: Asia/Beijing
+ 
 # Setup
-title:               lidongxuan
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title: Dongxuan Li (李東轩)
+description: 'A Master Student from School of Automation, Beijing Institute of Technology.'
+baseurl:     ''
+url:         'http://lidongxuan.github.io'
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name: 'Dongxuan Li'
+  url: https://github.com/lidongxuan
+  email: lidongxuan92@163.com
+
+sass:
+  sass_dir: _scss
+  compressed: true
+
+paginate: 5
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+show_related_posts: false
+animated: true
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+# disqus
+# show_disqus_comments: false
+disqus_shortname: lidongxuan
+
+# Social icons
+show_social_icons: true
+github_username: lidongxuan
+weibo_username: lidongxuan92
+
+google_analytics: UA-62083650-1
+
+

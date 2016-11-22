@@ -1,9 +1,14 @@
-李東轩个人主页
+# LI Dongxuan's Blog
+It's my personal blog.
 
-## Original Author
+## Contents
+- [Theme](#theme)
+- [License](#license)
 
-**Mark Otto**
+## Theme
+Fork and revise the theme from [caarlos0](https://github.com/caarlos0), released under MIT License.
 
 ## License
+It's a personal blog and all contents in **\_post** are original.
 
-Open sourced under the [MIT license](LICENSE.md).
+&copy; LI Dongxuan &bull; All rights reserved.
