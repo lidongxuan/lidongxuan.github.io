@@ -1,14 +1,9 @@
-个人主页
+李東轩个人主页
 
-## Author
+## Original Author
 
 **Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
 
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
-
-<3
