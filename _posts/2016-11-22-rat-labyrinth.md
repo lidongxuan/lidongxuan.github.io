@@ -33,4 +33,4 @@ comments: true
 
 **源代码**
 
-[代码下载](https://github.com/lidongxuan/rat-labyrinth)
+[代码下载](https://github.com/lidongxuan/rat-labyrinth/)
