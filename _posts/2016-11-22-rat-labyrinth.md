@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 老鼠吃奶酪或走迷宫，搜索路径问题
+title: 搜索路径问题
 comments: false
 ---
 
