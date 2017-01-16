@@ -64,7 +64,7 @@ $$IG(S,A)=H(S)-H(S|A)=H(S)-\sum_{j=1}^{m}p(t_j)H(t_j)$$
 
 在ID3算法里，每一次迭代过程中会计算所有剩余属性的信息增益，然后选择具有最大增益的属性对数据集进行划分，如此迭代，直至结束。[这里有一个ID3算法的实例过程](http://www.cnblogs.com/leoo2sk/archive/2010/09/19/decision-tree.html)。
 
-####(2) [C4.5](https://en.wikipedia.org/wiki/C4.5_algorithm)算法
+**(2) [C4.5](https://en.wikipedia.org/wiki/C4.5_algorithm)算法**
 
 D3算法存在一个问题，就是偏向于多值属性，例如，如果存在唯一标识属性ID，则ID3会选择它作为分裂属性，这样虽然使得划分充分纯净，但这种划分对分类几乎毫无用处。ID3的后继算法C4.5使用增益率（gain ratio）的信息增益扩充，试图克服这个偏倚。严格上说C4.5是ID3的一个改进算法。
 
