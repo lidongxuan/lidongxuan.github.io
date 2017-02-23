@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 机器学习中的损失函数
+title: 机器学习：各类损失函数
 comments: false
 ---
 
