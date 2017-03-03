@@ -148,7 +148,7 @@ $$\theta(x)=\theta_0+\theta_1x_1+\theta_2x_2$$
 
 如果是非线性线性边界，那么边界函数为的形式就多了，例如：
 
-$$\theta(x)=\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_2x_4^2$$
+$$\theta(x)=\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2$$
 
 **(3)构造损失函数（cost function，loss function）**
 
