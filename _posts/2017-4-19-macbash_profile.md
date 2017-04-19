@@ -15,7 +15,7 @@ comments: false
 sudo vi ~/.bash_profile
 ```
 
-（2）然后通过vim编辑器（当然也可以用其他编辑器如nano）添加或修改环境变量。关于vim操作的常见指令可以参考[这里]()。编辑完毕后在vim里输入
+（2）然后通过vim编辑器（当然也可以用其他编辑器如nano）添加或修改环境变量。关于vim操作的常见指令可以参考[这里](https://lidongxuan.github.io/blog/vivim)。编辑完毕后在vim里输入
 ```
 :wq
 ```
@@ -29,7 +29,15 @@ source ~/.bash_profile
 
 立即生效。
 
-（4）通过```echo $PATH```指令可以查看之前的设置是否生效；通过```printenv```指令可以查看所有的环境变量。
+（4）通过
+```
+echo $PATH
+```
+指令可以查看之前的设置是否生效；通过
+```
+printenv
+```
+指令可以查看所有的环境变量。
 
 
 ### 参考资料 ###
