@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 搜索路径问题
+title: 算法：搜索路径问题
 comments: false
 ---
 
