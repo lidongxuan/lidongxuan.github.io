@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 环境配置：mac配置环境变量
+title: 环境配置：mac/linux配置环境变量
 comments: false
 ---
 
@@ -39,7 +39,11 @@ printenv
 ```
 指令可以查看所有的环境变量。
 
+如果发现没有生效，尤其linux，那就logout当前用户，然后再登录，应该就好了。
+
 
 ### 参考资料 ###
 
 [Mac OSX 添加环境变量的三种方法](http://yijiebuyi.com/blog/41ee3bab0c5bf1d43c7a8ccc7f0fe44e.html)
+
+[Linux中环境变量文件及配置](http://www.cnblogs.com/mengyan/archive/2012/09/04/2669894.html)

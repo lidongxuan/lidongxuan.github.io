@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 编程相关：在mac上配合Dash使用sublime
+title: 效率提升：在mac上配合Dash使用sublime
 comments: false
 ---
 
