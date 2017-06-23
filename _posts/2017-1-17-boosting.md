@@ -56,11 +56,11 @@ AdaBoost训练过程：
 
 （2）使用训练集训练分类器$C_t$，并计算该分类器的错误率：
 
-$$\varepsilon=\frac{所有被分类错误的样本数量}{总样本数量}$$
+$$\varepsilon=\frac{所有被分类错误的样本数量\times错误样本权值}{总样本加权和}$$
 
 （3）计算分类器的权值为
 
-$$\alpha=\frac{1}{2}\ln(\frac{1−e}{e})$$
+$$\alpha=\frac{1}{2}\ln(\frac{1−\varepsilon}{\varepsilon})$$
 
 （4）更新样本当前的权值wt.若分类正确，则减少权值:
 
@@ -96,6 +96,8 @@ AdaBoost缺点：
 （2）训练时间过长，执行效果依赖于弱分类器的选择
 
 ## 参考资料 ##
+
+[Boosting算法简介](http://baidutech.blog.51cto.com/4114344/743809/)
 
 [bagging百度百科](http://baike.baidu.com/link?url=RlKFJdYbZRp33et5MdkQV37HU1LLtUxUvpGHrZAlI22HXafTr0YO9pK7M9B542EWilFHcA75OxvSuYU8r7N8B1XH8Em_u10SZmQvph7HFAq)
 
