@@ -107,6 +107,4 @@ AdaBoost缺点：
 
 [维基百科AdaBoosting](https://zh.wikipedia.org/zh-cn/AdaBoost)
 
-[AdaBoost部分推导参考《机器学习实战》]()
-
-
+[Boosting算法简介(包含AdaBoost例子)](http://baidutech.blog.51cto.com/4114344/743809/)
